@@ -1,4 +1,4 @@
-module github.com/binance-chain/go-sdk
+module github.com/kava-labs/binance-chain-go-sdk
 
 go 1.13
 
