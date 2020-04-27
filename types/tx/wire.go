@@ -2,7 +2,7 @@ package tx
 
 import (
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto/encoding/amino"
+	cryptoamino "github.com/tendermint/tendermint/crypto/encoding/amino"
 
 	"github.com/binance-chain/go-sdk/types/msg"
 )
@@ -17,6 +17,6 @@ func RegisterCodec(cdc *amino.Codec) {
 }
 
 func init() {
-	cryptoAmino.RegisterAmino(Cdc)
+	cryptoamino.RegisterAmino(Cdc)
 	RegisterCodec(Cdc)
 }
