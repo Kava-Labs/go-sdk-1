@@ -12,7 +12,7 @@ import (
 	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/binance-chain/go-sdk/client/rpc"
+	"github.com/kava-labs/binance-chain-go-sdk/client/rpc"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

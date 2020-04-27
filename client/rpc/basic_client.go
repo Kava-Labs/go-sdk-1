@@ -13,9 +13,9 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
 	"github.com/tendermint/tendermint/types"
 
-	ntypes "github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/keys"
-	"github.com/binance-chain/go-sdk/types/tx"
+	ntypes "github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/keys"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 )
 
 var DefaultTimeout = 5 * time.Second
@@ -73,7 +73,10 @@ type HTTP struct {
 // NewHTTP takes a remote endpoint in the form tcp://<host>:<port>
 // and the websocket path (which always seems to be "/websocket")
 func NewHTTP(remote, wsEndpoint string) *HTTP {
-	rc := rpcclient.NewJSONRPCClient(remote)
+	rc, err := rpcclient.NewJSONRPCClient(remote)
+	if err != nil {
+		return &HTTP{}
+	}
 	cdc := rc.Codec()
 	ctypes.RegisterAmino(cdc)
 	ntypes.RegisterWire(cdc)
