@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/libs/common"
+	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/types"
 )
 
@@ -47,7 +47,7 @@ func ValidateABCIPath(path string) error {
 	return nil
 }
 
-func ValidateABCIData(data common.HexBytes) error {
+func ValidateABCIData(data tmbytes.HexBytes) error {
 	if len(data) > maxABCIDataLength {
 		return ExceedABCIPathLengthError
 	}
