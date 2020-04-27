@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/binance-chain/go-sdk/types/tx"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 	"github.com/tendermint/tendermint/abci/types"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/libs/kv"
@@ -32,7 +32,7 @@ type ResponseCheckTx struct {
 	GasWanted int64         `json:"gas_wanted,omitempty"`
 	GasUsed   int64         `json:"gas_used,omitempty"`
 	Events    []types.Event `json:"events,omitempty"`
-	Tags      []kv.KVPair   `json:"tags,omitempty"`
+	Tags      []kv.Pair     `json:"tags,omitempty"`
 	Codespace string        `json:"codespace,omitempty"`
 }
 
@@ -52,7 +52,7 @@ type ResponseDeliverTx struct {
 	GasWanted int64         `json:"gas_wanted,omitempty"`
 	GasUsed   int64         `json:"gas_used,omitempty"`
 	Events    []types.Event `json:"events,omitempty"`
-	Tags      []kv.KVPair   `json:"tags,omitempty"`
+	Tags      []kv.Pair     `json:"tags,omitempty"`
 	Codespace string        `json:"codespace,omitempty"`
 }
 
@@ -97,7 +97,7 @@ type ResponseEndBlock struct {
 	ValidatorUpdates      []types.ValidatorUpdate `json:"validator_updates"`
 	ConsensusParamUpdates *types.ConsensusParams  `json:"consensus_param_updates,omitempty"`
 	Events                []types.Event           `json:"events,omitempty"`
-	Tags                  []kv.KVPair             `json:"tags,omitempty"`
+	Tags                  []kv.Pair               `json:"tags,omitempty"`
 }
 
 func (r *ResponseEndBlock) complement() {
@@ -110,7 +110,7 @@ func (r *ResponseEndBlock) complement() {
 
 type ResponseBeginBlock struct {
 	Events []types.Event `json:"events,omitempty"`
-	Tags   []kv.KVPair   `json:"tags,omitempty"`
+	Tags   []kv.Pair     `json:"tags,omitempty"`
 }
 
 func (r *ResponseBeginBlock) complement() {
@@ -122,7 +122,7 @@ func (r *ResponseBeginBlock) complement() {
 }
 
 type ResultTx struct {
-	Hash     kv.HexBytes       `json:"hash"`
+	Hash     tmbytes.HexBytes  `json:"hash"`
 	Height   int64             `json:"height"`
 	Index    uint32            `json:"index"`
 	TxResult ResponseDeliverTx `json:"tx_result"`
@@ -147,7 +147,7 @@ func (r *ResultTxSearch) complement() {
 }
 
 type Info struct {
-	Hash   kv.HexBytes       `json:"hash"`
+	Hash   tmbytes.HexBytes  `json:"hash"`
 	Height int64             `json:"height"`
 	Tx     tx.Tx             `json:"tx"`
 	Result ResponseDeliverTx `json:"result"`

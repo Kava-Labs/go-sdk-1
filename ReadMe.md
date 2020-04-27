@@ -18,7 +18,7 @@ Go version above 1.11
 
 ### Use go mod(recommend)
 
-Add "github.com/binance-chain/go-sdk" dependency into your go.mod file. Example:
+Add "github.com/kava-labs/binance-chain-go-sdk" dependency into your go.mod file. Example:
 ```go
 require (
 	github.com/binance-chain/go-sdk latest
@@ -122,7 +122,7 @@ assert.True(t, bytes.Equal(encryPlain1, encryPlain2))
 ### Init Client
 
 ```GO
-import sdk "github.com/binance-chain/go-sdk/client"
+import sdk "github.com/kava-labs/binance-chain-go-sdk/client"
 
 mnemonic := "lock globe panda armed mandate fabric couple dove climb step stove price recall decrease fire sail ring media enhance excite deny valid ceiling arm"
 //-----   Init KeyManager  -------------
