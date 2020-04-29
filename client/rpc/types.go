@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/binance-chain/go-sdk/types/tx"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 	"github.com/tendermint/tendermint/abci/types"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/libs/kv"

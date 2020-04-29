@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/binance-chain/go-sdk/common"
-	"github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/keys"
-	gtypes "github.com/binance-chain/go-sdk/types"
-	"github.com/binance-chain/go-sdk/types/msg"
-	"github.com/binance-chain/go-sdk/types/tx"
+	"github.com/kava-labs/binance-chain-go-sdk/common"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/keys"
+	gtypes "github.com/kava-labs/binance-chain-go-sdk/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 	core_types "github.com/tendermint/tendermint/rpc/core/types"
 )
 
