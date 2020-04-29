@@ -38,8 +38,6 @@ github.com/binance-chain/bnc-go-amino v0.14.1-binance.1 h1:RU33Toj/38sztKjcJTdzi
 github.com/binance-chain/bnc-go-amino v0.14.1-binance.1/go.mod h1:yaElUUxWtv/TC/ldGtlKAvS1vKwokxgJ1d97I+6is80=
 github.com/binance-chain/ledger-cosmos-go v0.9.9-binance.1 h1:8mAtw1Tp/BhhTrsXmXM60H1fihcvcKLfo2ZSxShaXKw=
 github.com/binance-chain/ledger-cosmos-go v0.9.9-binance.1/go.mod h1:FI6WAujuiBpoSavYreux2zTKyrUkngXDlRJczxsDK5M=
-github.com/binance-chain/ledger-go v0.9.1 h1:OjKbhUSq19jmMVqdnmkczjSD7qH4UtW4KY2IhsKnvfM=
-github.com/binance-chain/ledger-go v0.9.1/go.mod h1:Nd1Y0OY+m7C50kNEL4+LIH8Lj9DA9CbCLrv54t6fF1g=
 github.com/btcsuite/btcd v0.0.0-20190115013929-ed77733ec07d/go.mod h1:d3C0AkH6BRcvO8T0UEPu53cnw4IbV63x1bEjildYhO0=
 github.com/btcsuite/btcd v0.20.1-beta h1:Ik4hyJqN8Jfyv3S4AGBOmyouMsYE3EdYODkMbQjwPGw=
 github.com/btcsuite/btcd v0.20.1-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13Px/pDuV7OomQ=
@@ -398,6 +396,8 @@ github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
 github.com/zondax/hid v0.9.0 h1:eiT3P6vNxAEVxXMw66eZUAAnU2zD33JBkfG/EnfAKl8=
 github.com/zondax/hid v0.9.0/go.mod h1:l5wttcP0jwtdLjqjMMWFVEE7d1zO0jvSPA9OPZxWpEM=
+github.com/zondax/ledger-go v0.9.0 h1:oTrtFqPFA4VdCPRvqMaN45mQnJxkPc0JxoVZfCoUpjI=
+github.com/zondax/ledger-go v0.9.0/go.mod h1:b2vIcu3u9gJoIx4kTWuXOgzGV7FPWeUktqRqVf6feG0=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.3 h1:MUGmc65QhB3pIlaQ5bB4LwqSj6GIonVJXpZiaKNyaKk=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
