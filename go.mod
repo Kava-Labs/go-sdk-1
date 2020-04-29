@@ -20,7 +20,7 @@ require (
 	github.com/tendermint/tendermint v0.33.3
 	github.com/tendermint/tm-db v0.5.1 // indirect
 	github.com/zondax/hid v0.9.0 // indirect
-	github.com/zondax/ledger-go v0.0.0-00010101000000-000000000000 // indirect
+	github.com/zondax/ledger-go v0.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20200406173513-056763e48d71
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e // indirect
 	google.golang.org/grpc v1.28.1 // indirect
