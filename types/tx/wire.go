@@ -2,9 +2,9 @@ package tx
 
 import (
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/crypto/encoding/amino"
+	"github.com/kava-labs/tendermint/crypto/encoding/amino"
 
-	"github.com/binance-chain/go-sdk/types/msg"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
 )
 
 // cdc global variable

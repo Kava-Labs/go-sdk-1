@@ -3,7 +3,7 @@
 package ledger
 
 import (
-	ledger "github.com/binance-chain/ledger-cosmos-go"
+	ledger "github.com/kava-labs/ledger-cosmos-go"
 )
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,

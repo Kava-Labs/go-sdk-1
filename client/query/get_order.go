@@ -2,7 +2,7 @@ package query
 
 import (
 	"encoding/json"
-	"github.com/binance-chain/go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
 )
 
 // GetOrder returns transaction details
