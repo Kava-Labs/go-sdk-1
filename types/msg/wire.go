@@ -1,7 +1,7 @@
 package msg
 
 import (
-	"github.com/tendermint/go-amino"
+	"github.com/kava-labs/go-amino"
 )
 
 var MsgCdc = amino.NewCodec()

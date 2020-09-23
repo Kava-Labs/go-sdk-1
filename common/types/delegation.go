@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/go-amino"
+	"github.com/kava-labs/go-amino"
 )
 
 // Delegation represents the bond with tokens held by an account.  It is

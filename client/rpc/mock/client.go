@@ -1,16 +1,16 @@
 package mock
 
 import (
-	"github.com/binance-chain/go-sdk/client/rpc"
+	"github.com/kava-labs/binance-chain-go-sdk/client/rpc"
 	"reflect"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/rpc/core"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
-	"github.com/tendermint/tendermint/types"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	"github.com/kava-labs/tendermint/libs/log"
+	"github.com/kava-labs/tendermint/rpc/client"
+	"github.com/kava-labs/tendermint/rpc/core"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

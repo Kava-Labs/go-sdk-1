@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/binance-chain/go-sdk/common/types"
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/tendermint/crypto"
 )
 
 const (

@@ -2,23 +2,23 @@ package e2e
 
 import (
 	"fmt"
-	"github.com/binance-chain/go-sdk/client/rpc"
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/kava-labs/binance-chain-go-sdk/client/rpc"
+	"github.com/kava-labs/tendermint/crypto"
 	"strings"
 	"testing"
 	time2 "time"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/types/time"
+	"github.com/kava-labs/tendermint/types/time"
 
-	sdk "github.com/binance-chain/go-sdk/client"
-	"github.com/binance-chain/go-sdk/client/transaction"
-	"github.com/binance-chain/go-sdk/common"
-	ctypes "github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/keys"
-	"github.com/binance-chain/go-sdk/types/msg"
-	txtype "github.com/binance-chain/go-sdk/types/tx"
+	sdk "github.com/kava-labs/binance-chain-go-sdk/client"
+	"github.com/kava-labs/binance-chain-go-sdk/client/transaction"
+	"github.com/kava-labs/binance-chain-go-sdk/common"
+	ctypes "github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/keys"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
+	txtype "github.com/kava-labs/binance-chain-go-sdk/types/tx"
 )
 
 // After bnbchain integration_test.sh has runned

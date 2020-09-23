@@ -1,10 +1,10 @@
 package rpc
 
 import (
-	"github.com/binance-chain/go-sdk/types/tx"
-	"github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	abci "github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
+	"github.com/kava-labs/tendermint/abci/types"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	abci "github.com/kava-labs/tendermint/types"
 )
 
 type ResultBroadcastTxCommit struct {

@@ -5,12 +5,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/binance-chain/go-sdk/client/rpc"
-	ctypes "github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/keys"
-	"github.com/binance-chain/go-sdk/types"
-	"github.com/binance-chain/go-sdk/types/msg"
-	"github.com/binance-chain/go-sdk/types/tx"
+	"github.com/kava-labs/binance-chain-go-sdk/client/rpc"
+	ctypes "github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/keys"
+	"github.com/kava-labs/binance-chain-go-sdk/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 	"github.com/stretchr/testify/assert"
 )
 

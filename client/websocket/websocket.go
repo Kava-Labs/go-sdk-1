@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/binance-chain/go-sdk/client/basic"
+	"github.com/kava-labs/binance-chain-go-sdk/client/basic"
 )
 
 type WSClient interface {

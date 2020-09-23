@@ -9,9 +9,9 @@ import (
 	"golang.org/x/crypto/sha3"
 
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/kava-labs/tendermint/crypto/tmhash"
 
-	"github.com/binance-chain/go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
 )
 
 // SortJSON takes any JSON and returns it sorted by keys. Also, all white-spaces

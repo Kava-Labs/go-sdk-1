@@ -1,6 +1,6 @@
 package types
 
-import "github.com/tendermint/go-amino"
+import "github.com/kava-labs/go-amino"
 
 func RegisterWire(cdc *amino.Codec) {
 

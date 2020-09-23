@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	ctypes "github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/types"
-	"github.com/binance-chain/go-sdk/types/msg"
-	"github.com/binance-chain/go-sdk/types/tx"
+	ctypes "github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
 )
 
 type SubmitProposalResult struct {

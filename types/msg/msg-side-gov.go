@@ -6,9 +6,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/tendermint/go-amino"
+	"github.com/kava-labs/go-amino"
 
-	"github.com/binance-chain/go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
 )
 
 const (

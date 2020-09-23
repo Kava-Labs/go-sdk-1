@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/binance-chain/go-sdk/common/types"
-	"github.com/binance-chain/go-sdk/types/msg"
-	"github.com/binance-chain/go-sdk/types/tx"
-	"github.com/tendermint/go-amino"
-	coretypes "github.com/tendermint/tendermint/rpc/core/types"
+	"github.com/kava-labs/binance-chain-go-sdk/common/types"
+	"github.com/kava-labs/binance-chain-go-sdk/types/msg"
+	"github.com/kava-labs/binance-chain-go-sdk/types/tx"
+	"github.com/kava-labs/go-amino"
+	coretypes "github.com/kava-labs/tendermint/rpc/core/types"
 )
 
 var (
